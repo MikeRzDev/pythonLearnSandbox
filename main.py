@@ -3,24 +3,24 @@ from functions import *
 
 
 def menu():
-    selection: str = ""
-
     while True:
         print("""**** Python Fundamentals ****
             1. Control Structures
             2. Range
-            3. Function
-            4. 
-            4. Returning Function""")
+            3. Function with Default Parms
+            4. Function with Named Params
+            5. Function Returning Value""")
         selection = input("your selection (anything else will end the program): ")
         if selection == '1':
             control_structure_example()
         elif selection == '2':
             range_example()
         elif selection == '3':
-            my_function()
+            default_param_example()
         elif selection == '4':
-            my_int_function_example()
+            named_param_example()
+        elif selection == '5':
+            returning_function_example()
         else:
             break
         print("\n")

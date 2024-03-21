@@ -1,14 +1,14 @@
-def my_function(param='defaultValue'):
+def default_param_example(param='defaultValue'):
     print(f'my param is {param}')
 
 
-def my_int_function(seed=1) -> int:
+def returning_function(seed=1) -> int:
     return seed
 
 
-def my_int_function_example():
-    print(f'the return value is : {my_int_function()}')
+def returning_function_example():
+    print(f'the return value is : {returning_function()}')
 
 
-def my_function_example():
-    my_function(param='anotherValue')
+def named_param_example():
+    default_param_example(param='anotherValue')
