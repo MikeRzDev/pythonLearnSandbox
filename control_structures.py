@@ -7,11 +7,11 @@ def control_structure_example():
             break
         selection = int(selection_string)
         values.append(selection)
-    sum = 0
+    total = 0
     for value in values:
-        sum += value
+        total += value
     list_count = len(values)
-    mean: float = sum / list_count
+    mean: float = total / list_count
     print(f'the mean is {str(mean)}')
 
 
