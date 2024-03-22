@@ -7,7 +7,7 @@ def menu():
         print("""**** Python Fundamentals ****
             1. Control Structures
             2. Range
-            3. Function with Default Parms
+            3. Function with Default Params
             4. Function with Named Params
             5. Function Returning Value
             6. Function with VarArgs""")
